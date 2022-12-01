@@ -4,6 +4,8 @@ $(document).ready(onReady);
 let apPoints = 100;
 let hpPoints = 100;
 
+let minhpPoints = 0; 
+
 
 // State Variables can be declared outside of the onReady
 // Feel free to make this to what you want!
@@ -67,3 +69,8 @@ function starFireButton() {
     hpPoints -= 25; 
 }
 
+/*
+
+let minHpPoints = 0;
+
+if(hpPoints)
